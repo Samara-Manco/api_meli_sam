@@ -1,0 +1,26 @@
+[
+  {
+    "id": "MLA123456",
+    "title": "Smart TV 4K 55 pulgadas",
+    "price": 150000.00,
+    "currency_id": "ARS",
+    "condition": "new",
+    "stock": 15,
+    "seller": {
+      "id": 101,
+      "nickname": "ElectroShop"
+    }
+  },
+  {
+    "id": "MLA789012",
+    "title": "Laptop Gamer Core i7 16GB RAM",
+    "price": 350000.00,
+    "currency_id": "ARS",
+    "condition": "new",
+    "stock": 7,
+    "seller": {
+      "id": 102,
+      "nickname": "TechPro"
+    }
+  }
+]

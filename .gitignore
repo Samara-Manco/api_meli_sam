@@ -1,0 +1,10 @@
+# Virtual Environment
+venv/
+__pycache__/
+*.pyc
+
+# Build artifacts
+.pytest_cache/
+build/
+dist/
+Paso 3.2: Escrib
