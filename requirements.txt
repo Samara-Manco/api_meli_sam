@@ -7,3 +7,5 @@ uvicorn[standard]
 # Testing
 pytest
 httpx
+pytest-cov
+pytest-html
