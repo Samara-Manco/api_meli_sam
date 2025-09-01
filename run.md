@@ -6,7 +6,7 @@ Docker Compose
 
 ### Pasos
 
-1.  Clone el repositorio en su máquina.
+1.  Clone el repositorio en su máquina : git@github.com:Samara-Manco/api_meli_sam.git
 2.  Abra una terminal en la carpeta raíz del proyecto.
 3.  Ejecute el siguiente comando:
    
