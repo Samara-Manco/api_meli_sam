@@ -53,3 +53,13 @@ def test_item_response_schema_and_types():
     assert isinstance(data["title"], str)
     assert isinstance(data["price"], float)
     assert isinstance(data["seller"], dict)
+
+def test_to_demonstrate_pipeline_failure():
+    """
+    Esta prueba está diseñada para fallar a propósito.
+    Pide un producto que existe (debería dar 200), pero comprueba si da un error 500.
+    Esto nos permite verificar que el pipeline de CI nos avisa cuando una prueba falla.
+    """
+    response = client.get("/api/items/MLA123456")
+    # Afirmamos intencionalmente un resultado incorrecto para ver el pipeline fallar.
+    assert response.status_code == 500
