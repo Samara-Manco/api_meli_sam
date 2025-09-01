@@ -20,10 +20,13 @@ Genera el código para una API básica con FastAPI en Python. El archivo princip
 
 **Prompt:**
 
-Genera una suite de pruebas para una aplicación FastAPI usando pytest y TestClient. El archivo de pruebas es tests/test_main.py. La app tiene un endpoint GET /api/items/{item_id}. Escribe tres pruebas:
-Una prueba de caso de éxito (test_read_item_success) que llame a un ID existente y verifique que el status sea 200 y el título sea el correcto.
-Una prueba de caso de error (test_read_item_not_found) que llame a un ID inexistente y verifique que el status sea 404.
-Una prueba para el endpoint raíz (test_root_endpoint) que verifique que el status sea 200.
+Genera una suite de pruebas para una aplicación FastAPI usando pytest y TestClient. El archivo de pruebas es tests/test_main.py. La app tiene un endpoint GET /api/items/{item_id}. Escribe tres pruebas: 
+
+1. Una prueba de caso de éxito (test_read_item_success) que llame a un ID existente y verifique que el status sea 200 y el título sea el correcto.
+
+2. Una prueba de caso de error (test_read_item_not_found) que llame a un ID inexistente y verifique que el status sea 404.
+
+3. Una prueba para el endpoint raíz (test_root_endpoint) que verifique que el status sea 200.
 
 ---
 ### Prompt 3: Creación de Workflow de GitHub Actions
@@ -33,7 +36,11 @@ Una prueba para el endpoint raíz (test_root_endpoint) que verifique que el stat
 **Prompt:**
 
 Crea un workflow básico de GitHub Actions para un proyecto de Python. El workflow debe activarse en cada push a la rama 'main'. Debe tener un solo job que corra en ubuntu-latest. Los pasos deben ser:
-Hacer checkout del código.
-Configurar Python 3.11.
-Instalar las dependencias desde un archivo requirements.txt.
-Ejecutar las pruebas usando el comando pytest.
+
+1. Hacer checkout del código.
+
+2. Configurar Python 3.11.
+
+3. Instalar las dependencias desde un archivo requirements.txt.
+
+4. Ejecutar las pruebas usando el comando pytest.
